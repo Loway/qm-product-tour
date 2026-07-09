@@ -235,7 +235,7 @@ var TOUR = [
      ]
     },
     {
-    page: 'homepage5.html',
+    page: 'homepage-wallboard.html',
     steps: [
       {
         element: '.infoBoxGrid > div:nth-child(1)',
@@ -401,7 +401,7 @@ var TOUR = [
 // Homepage
 
     {
-    page: 'homepage6.html',
+    page: 'homepage-report.html',
     steps: [
       {
         element: '.infoBoxGrid > div:nth-child(2)',
