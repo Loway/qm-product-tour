@@ -3,13 +3,13 @@ var TOUR_CONFIG = {
   overlayOpacity: 0.6,
   showProgress: true,
   allowClose: false,
-  doneBtnUrl: 'https://www.queuemetrics.com/landing/trial-qm-p.jsp?lid=',
+  doneBtnUrl: 'https://www.queuemetrics.com/landing/trial-qm-p.jsp?lid=994',
   doneBtnText: 'Let\'s do it!',
   nextBtnText: 'Next &rarr;',
   prevBtnText: '&larr; Back',
 
   onPopoverRender: function (popover) {
-    var INDEX_URL = 'login.html?step=0';
+    var INDEX_URL = 'index.html?step=0';
 
     if (!document.getElementById('tour-toc-style')) {
       var style = document.createElement('style');
@@ -165,7 +165,7 @@ var TOUR = [
 // Login page
 
   {
-    page: 'login.html',
+    page: 'index.html',
     steps: [
         {
           element: '.page-header',
